@@ -14,8 +14,6 @@
 		326BAADD26433669000ADAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326BAADC26433669000ADAEE /* Assets.xcassets */; };
 		326BAAE026433669000ADAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326BAADE26433669000ADAEE /* LaunchScreen.storyboard */; };
 		326BAAE9264336D8000ADAEE /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAE8264336D8000ADAEE /* PushViewController.swift */; };
-		326BAAEC264336F3000ADAEE /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAEB264336F3000ADAEE /* Song.swift */; };
-		326BAAEF26433724000ADAEE /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAEE26433724000ADAEE /* SongTableViewCell.swift */; };
 		326BAAF226433826000ADAEE /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAF126433826000ADAEE /* Sign.swift */; };
 		326BAAF52643386E000ADAEE /* SignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAF42643386E000ADAEE /* SignTableViewCell.swift */; };
 		326BAAF8264344A0000ADAEE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAF7264344A0000ADAEE /* NetworkManager.swift */; };
@@ -31,8 +29,6 @@
 		326BAADF26433669000ADAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		326BAAE126433669000ADAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326BAAE8264336D8000ADAEE /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
-		326BAAEB264336F3000ADAEE /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		326BAAEE26433724000ADAEE /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		326BAAF126433826000ADAEE /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 		326BAAF42643386E000ADAEE /* SignTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTableViewCell.swift; sourceTree = "<group>"; };
 		326BAAF7264344A0000ADAEE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -77,9 +73,7 @@
 				326BAADE26433669000ADAEE /* LaunchScreen.storyboard */,
 				326BAAE126433669000ADAEE /* Info.plist */,
 				326BAAE8264336D8000ADAEE /* PushViewController.swift */,
-				326BAAEB264336F3000ADAEE /* Song.swift */,
 				326BAAF126433826000ADAEE /* Sign.swift */,
-				326BAAEE26433724000ADAEE /* SongTableViewCell.swift */,
 				326BAAF42643386E000ADAEE /* SignTableViewCell.swift */,
 			);
 			path = hackChallenge;
@@ -156,14 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				326BAAF8264344A0000ADAEE /* NetworkManager.swift in Sources */,
-				326BAAEF26433724000ADAEE /* SongTableViewCell.swift in Sources */,
 				326BAAD826433667000ADAEE /* ViewController.swift in Sources */,
 				326BAAF226433826000ADAEE /* Sign.swift in Sources */,
 				326BAAD426433667000ADAEE /* AppDelegate.swift in Sources */,
 				326BAAE9264336D8000ADAEE /* PushViewController.swift in Sources */,
 				326BAAD626433667000ADAEE /* SceneDelegate.swift in Sources */,
 				326BAAF52643386E000ADAEE /* SignTableViewCell.swift in Sources */,
-				326BAAEC264336F3000ADAEE /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
