@@ -33,6 +33,7 @@ class PushViewController: UIViewController {
         NetworkManager.getHoroscope(id: cell!.id){
             sign in
             self.horoscope.text = sign.horoscope
+            print(self.horoscope.text)
         }
     }
     
@@ -53,6 +54,7 @@ class PushViewController: UIViewController {
         horoscope.numberOfLines = 10
         horoscope.textAlignment = .center
         horoscope.font = UIFont.boldSystemFont(ofSize: 16.0)
+        getHoroscopeData()
         view.addSubview(horoscope)
         
         button.translatesAutoresizingMaskIntoConstraints = false

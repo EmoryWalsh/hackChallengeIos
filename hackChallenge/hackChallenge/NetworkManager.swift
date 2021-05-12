@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 class NetworkManager {
-    static let host = "http://0.0.0.0:5000/"
+    static let host = "http://ajw282dailyhoroscope.herokuapp.com/"
     
     static func getHoroscope(id: Int, completion: @escaping (Sign) -> Void){
         let endpoint = "\(host)/api/\(id)/"

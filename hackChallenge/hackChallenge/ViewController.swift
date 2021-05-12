@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     func createDummyData(){
 
-        let aries = Sign(sign: "Aries", horoscope: "", picture: "aries", id: 3)
+        let aries = Sign(sign: "Aries", horoscope: "You will have a lot to say for yourself today but you must make sure your words are positive or you could turn people against you. Yes, of course, being plain-spoken is good – in a way – but few people appreciate being told how stupid they are!", picture: "aries", id: 3)
         let taurus = Sign(sign: "Taurus", horoscope: "It may be the case that some of your recent decisions have been called into question but there is no reason to change anything just to please other people. You still have faith in your own abilities and, ultimately, that’s the only thing that matters.", picture: "taurus", id: 4)
         let gemini = Sign(sign: "Gemini", horoscope: "There are so many positive things going on in your life at the moment and by the end of the week you’ll be convinced that the cosmic powers that be are watching over and protecting you. Don’t take risks where you don’t have to though.", picture: "gemini", id: 5)
         let cancer = Sign(sign: "Cancer", horoscope: "If you find yourself jumping at your own shadow you must get out into the world and mix with other people. The less time you spend on your own over the next 24 hours the less likely it is your wayward thoughts will confuse you.", picture: "cancer", id: 6)
