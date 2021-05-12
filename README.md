@@ -16,6 +16,7 @@ ios dev: we've addressed all requirements
 - we've integrated with backend's API
 
 Pictures:
+
 <img width="342" alt="Screen Shot 2021-05-11 at 9 13 26 PM" src="https://user-images.githubusercontent.com/34355275/117903711-0eee3080-b29e-11eb-8f0b-416357a73312.png">
 
 <img width="342" alt="Screen Shot 2021-05-11 at 9 16 23 PM" src="https://user-images.githubusercontent.com/34355275/117903802-3218e000-b29e-11eb-8c81-9b3f3d3ea6f3.png">
