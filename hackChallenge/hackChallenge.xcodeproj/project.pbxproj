@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0567346682B5084830F52BA8 /* Pods_hackChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7982C3D9C24825C811DDFC /* Pods_hackChallenge.framework */; };
 		326BAAD426433667000ADAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAD326433667000ADAEE /* AppDelegate.swift */; };
 		326BAAD626433667000ADAEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAD526433667000ADAEE /* SceneDelegate.swift */; };
 		326BAAD826433667000ADAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BAAD726433667000ADAEE /* ViewController.swift */; };
@@ -32,6 +33,9 @@
 		326BAAF126433826000ADAEE /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 		326BAAF42643386E000ADAEE /* SignTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTableViewCell.swift; sourceTree = "<group>"; };
 		326BAAF7264344A0000ADAEE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7E7982C3D9C24825C811DDFC /* Pods_hackChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89020C31F9CBE61B47E2798 /* Pods-hackChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackChallenge.debug.xcconfig"; path = "Target Support Files/Pods-hackChallenge/Pods-hackChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E5EF274911BA95984E076F21 /* Pods-hackChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackChallenge.release.xcconfig"; path = "Target Support Files/Pods-hackChallenge/Pods-hackChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0567346682B5084830F52BA8 /* Pods_hackChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,8 @@
 			children = (
 				326BAAD226433667000ADAEE /* hackChallenge */,
 				326BAAD126433667000ADAEE /* Products */,
+				8B86795CB21B451096E5A7FD /* Pods */,
+				7DF34D6661FB288D27145BAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,24 @@
 			path = hackChallenge;
 			sourceTree = "<group>";
 		};
+		7DF34D6661FB288D27145BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E7982C3D9C24825C811DDFC /* Pods_hackChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B86795CB21B451096E5A7FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A89020C31F9CBE61B47E2798 /* Pods-hackChallenge.debug.xcconfig */,
+				E5EF274911BA95984E076F21 /* Pods-hackChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 326BAAE426433669000ADAEE /* Build configuration list for PBXNativeTarget "hackChallenge" */;
 			buildPhases = (
+				B1D226CCC5FF21A7AAA222D6 /* [CP] Check Pods Manifest.lock */,
 				326BAACC26433667000ADAEE /* Sources */,
 				326BAACD26433667000ADAEE /* Frameworks */,
 				326BAACE26433667000ADAEE /* Resources */,
+				9C02FB305636CA059EE6B748 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,6 +170,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C02FB305636CA059EE6B748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackChallenge/Pods-hackChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackChallenge/Pods-hackChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hackChallenge/Pods-hackChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D226CCC5FF21A7AAA222D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		326BAACC26433667000ADAEE /* Sources */ = {
@@ -299,6 +368,7 @@
 		};
 		326BAAE526433669000ADAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89020C31F9CBE61B47E2798 /* Pods-hackChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +387,7 @@
 		};
 		326BAAE626433669000ADAEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EF274911BA95984E076F21 /* Pods-hackChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -29,7 +29,15 @@ class PushViewController: UIViewController {
         setupConstraints()
     }
     
+    func getHoroscopeData() {
+        NetworkManager.getHoroscope(id: cell!.id){
+            sign in
+            self.horoscope.text = sign.horoscope
+        }
+    }
+    
     func setupViews() {
+        getHoroscopeData()
         sign.translatesAutoresizingMaskIntoConstraints = false
         sign.text = cell!.sign
         sign.textColor =  UIColor(red: 174/255, green: 198/255, blue: 207/255, alpha: 1)
